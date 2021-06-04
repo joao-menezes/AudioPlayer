@@ -68,8 +68,8 @@ public class Main extends JFrame{
         exit = new JMenuItem("Exit");
         /**acao do teclado relacionado a sair */
         exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F4, InputEvent.ALT_DOWN_MASK));
-        img_play = new ImageIcon("src/icons/play.png");
-        img_pause = new ImageIcon("src/icons/pause.png");
+        img_play = new ImageIcon("AudioPlayer/src/icons/play.png");
+        img_pause = new ImageIcon("AudioPlayer/src/icons/pause.png");
         /**imagem dos botoes */
         playButton = new JButton(img_play);
         pauseButton = new JButton(img_pause);
