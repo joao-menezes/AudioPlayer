@@ -1,4 +1,4 @@
-import java.awt.Event;
+import java.awt.event.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -64,10 +64,10 @@ public class Main extends JFrame{
         menu = new JMenu("Menu");
         open = new JMenuItem("Open");
         /**acao do teclado relacionado a abrir */
-        open.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, Event.CTRL_MASK));
+        open.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, InputEvent.CTRL_DOWN_MASK));
         exit = new JMenuItem("Exit");
         /**acao do teclado relacionado a sair */
-        exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F4, Event.ALT_MASK));
+        exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F4, InputEvent.ALT_DOWN_MASK));
         img_play = new ImageIcon("src/icons/play.png");
         img_pause = new ImageIcon("src/icons/pause.png");
         /**imagem dos botoes */
